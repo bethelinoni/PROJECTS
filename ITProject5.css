@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {                                         
+    background-color: rgb(14, 14, 48);
+}
+
+.top {
+    font-family: Arial;
+    color: white;
+    background-color: blue;
+    border-radius: 30px; 
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1220px;
+    margin-left: 60px;
+    /*padding: 13px;*/ 
+    border: none;
+}
+
+.one {
+    font-family: Arial; 
+    color: rgba(255, 255, 255, 0.767);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 200px; 
+}
+
+li {
+    float: left;
+}   
+
+.dropdown {
+    display: inline-block;
+}   
+
+.contents {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown:hover .contents{
+    display: block;
+}
+
+.contents a:hover {
+    background-color: purple;
+    color: orangered;            
+}
+
+li a{
+    color: rgba(255, 255, 255, 0.767);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    position: relative;
+}
+
+li a:hover {
+    color: orange; 
+}
+
+.two {
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    margin-left: 140px;
+    cursor: pointer;
+}
+
+.two a {
+    text-decoration: none;
+    color: white;
+}
+
+.two:hover {
+    opacity: 0.92;
+}
+
+.fa-chevron-down {
+    font-weight: 100;
+    font-size: 12px;  
+}
+
+.main {
+    margin-top: 65px;
+    margin-left: 65px;
+}
+
+.three {
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-family: Arial;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.line {
+    width: 140px;
+    height: 1px;
+    background-color: orange;
+    margin-left: 15px;
+}
+
+.four {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 3px;
+    padding-bottom: 80px;
+}
+
+.inside {
+    display: flex;
+    flex-wrap: wrap;
+    /*border-radius: 10px;*/
+}
+
+.inside1 {
+    background-color: rgba(73, 69, 69, 0.4); 
+    border-radius: 10px;
+    display: flex;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    height: 250px;
+}
+
+.inside12:hover {
+    border: 1px solid rgb(104, 70, 8);
+}
+
+.inside12 {
+    border: 1px solid rgba(235, 228, 228, 0.1);
+    border-radius: 0px 10px 10px 0px;
+}
+
+img.five {
+    width: 220px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.inside2 {
+    font-family: Arial;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.six {
+    color: white;
+    font-size: 20px;
+}
+
+.seven {
+    color: rgba(255, 255, 255, 0.767);
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.eight {
+    color: rgba(255, 255, 255, 0.767);
+    margin-top: 22px;
+    line-height: 22px;
+}
+
+.nine {
+    display: block;
+}
+
+.ten {
+    margin-top: 22px;
+}
+
+button {
+    border: 1px solid rgba(235, 228, 228, 0.1);
+    background: none;
+    color: white;
+    padding: 7px 7px 7px 7px;
+    margin-right: 7px;
+    border-radius: 3px;
+}
+
+.ten button:hover {
+    border: 1px solid orange;
+    color: orange;
+}
+
+.fg:hover {
+
+}
+
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-youtube {
+    font-size: 17px;
+}
+
+.eleven {
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: none;
+    background-color: rgb(219, 151, 23);
+    color: white;
+    padding: 11px 25px 11px 25px;
+    font-size: 20px;                                               
+    border-radius: 3px;
+    transition: opacity 0.15s ease;                                
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.eleven:hover {
+    opacity: 0.7;
+}
+
+.eleven:focus {
+    opacity: 0.5;
+}
+
+.eleven a {
+    text-decoration: none;
+    color: rgb(14, 14, 48); 
+}
+
+.eleven a:hover {
+    color: rgb(14, 14, 48);
+}
+

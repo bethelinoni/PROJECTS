@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {                                         
+    background-color: rgb(14, 14, 48);
+}
+
+.top {
+    font-family: Arial;
+    color: white;
+    background-color: blue;
+    border-radius: 30px; 
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1220px;
+    margin-left: 60px;
+    /*padding: 13px;*/ 
+    border: none;
+}
+
+.one {
+    font-family: Arial; 
+    color: rgba(255, 255, 255, 0.767);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 200px; 
+}
+
+li {
+    float: left;
+}   
+
+.dropdown {
+    display: inline-block;
+}   
+
+.contents {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown:hover .contents{
+    display: block;
+}
+
+.contents a:hover {
+    background-color: purple;
+    color: orangered;            
+}
+
+li a{
+    color: rgba(255, 255, 255, 0.767);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    position: relative;
+}
+
+li a:hover {
+    color: orange; 
+}
+
+.two {
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    margin-left: 140px;
+    cursor: pointer;
+}
+
+.two a {
+    text-decoration: none;
+    color: white;
+}  
+
+.two:hover {
+    opacity: 0.92;
+}
+
+.fa-chevron-down {
+    font-weight: 100;
+    font-size: 12px;  
+}
+
+.main {
+    margin-top: 65px;
+    margin-left: 65px;
+}
+
+.three {
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-family: Arial;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.line {
+    width: 140px;
+    height: 1px;
+    background-color: orange;
+    margin-left: 15px;
+}
+
+.four {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 3px;
+    padding-bottom: 80px;
+}
+
+.inside {
+    display: flex;
+}
+
+.five {
+    font-family: Arial;
+    color: white;
+    font-size: 50px;
+}
+
+.six {
+    color: orange;
+    display: block;
+}
+
+.inside1 {
+    margin-left: 270px;
+    margin-top: -30px;
+}
+
+.seven {
+    color: white;
+    font-family: Arial;
+    line-height: 25px;
+}
+
+.eight, .nine {
+    display: block;
+}
+
+.ten {
+    margin-top: 25px;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 15px 22px 15px 22px;
+    cursor: pointer;
+    transform: opacity 0.15s;
+}
+
+.ten a {
+    text-decoration: none;
+    color: white;
+}
+
+.ten:hover {
+    opacity: 0.8;
+}
+
+.ten:focus {
+    opacity: 0.5;
+}
+
+.fa-arrow-right {
+    font-weight: lighter;
+    margin-left: 7px;
+    width: 5m;
+}
+
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    color: white;
+}
+
+.each {
+    border: 1px solid orange;
+    color: white;
+    padding: 20px 40px 40px 40px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.each1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(73, 69, 69, 0.4);
+    border: none;
+    border-radius: 8px;
+    margin-top: 35px;
+}
+
+.fa-palette {
+    padding: 13px 13px 13px 13px;
+    font-size: 35px;
+    color: orange;
+}
+
+.fa-gem {
+    padding: 13px 13px 13px 13px;
+    font-size: 35px;
+    color: orange;
+}
+
+.fa-bullhorn {
+    padding: 13px 13px 13px 13px;
+    font-size: 35px;
+    color: orange;
+}
+
+.fa-code {
+    padding: 13px 13px 13px 13px;
+    font-size: 35px;
+    color: orange;
+}
+
+.fa-chart-line {
+    padding: 13px 13px 13px 13px;
+    font-size: 35px;
+    color: orange;
+}
+
+.fa-video {
+    padding: 13px 13px 13px 13px;
+    font-size: 35px;
+    color: orange;
+}
+
+.eleven {
+    color: white;
+    font-family: Arial;
+    margin-top: 35px;
+    font-size: 29px;
+}
+
+.twelve {
+    display: block;
+}
+
+.thirteen {
+    color: white;
+    font-family: Arial;
+    margin-top: 30px;
+    line-height: 25px;         
+}
+
+.fourteen {
+    display: block;
+}
+
+.fifteen {
+    display: block;
+}
+
+.sixteen {
+    display: block;
+    margin: auto;
+    margin-top: 85px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: none;
+    background-color: rgb(250, 140, 37);
+    color: rgb(14, 14, 48);
+    padding: 15px 30px 15px 30px;
+    font-size: 20px;                        
+    border-radius: 3px;
+    transition: opacity 0.15s ease;
+}
+
+.sixteen:hover {
+    opacity: 0.8;
+}
+
+.sixteen:focus {
+    opacity: 0.5;
+}
+
+.sixteen a {
+    text-decoration: none;
+    color: rgb(14, 14, 48); 
+}

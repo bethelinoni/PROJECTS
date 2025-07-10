@@ -1,0 +1,139 @@
+ul {
+    list-style-type: none;
+    background-color: red;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    position: relative;
+    font-family: Arial;
+}
+
+li a
+
+.dropdown {
+    display: inline-block;
+}
+
+.contents {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: brown;
+}
+
+.dropdown:hover .contents {
+    display: block;
+}
+
+.contents a:hover {
+    background-color: blueviolet;
+    color: orangered;
+}
+
+.three {
+    position: relative;
+    display: inline-block;
+    color: gray;
+    font-family: Arial;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 13px;
+    padding-right: 0px; /* space for line */
+}
+
+.three::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    width: 220px;
+    height: 1px;
+    background-color: orange;
+    margin-left: 10px;
+}
+
+.container {
+      display: flex;
+      width: 100%;
+      height: 100px;
+      margin-top: 30px;
+    }
+
+    .box1 {
+      flex: 1;
+      background-color: lightblue;
+      text-align: center;
+      line-height: 100px;
+    }
+
+    .box2 {
+      flex: 2;
+      background-color: orange;
+      text-align: center;
+      line-height: 100px;
+    }
+
+    .box3 {
+      flex: 1;
+      background-color: lightgreen;
+      text-align: center;
+      line-height: 100px;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .ree {
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-family: Arial;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.our {
+    flex: 1;
+    height: 0.5px;
+    background-color: orange;
+    margin-left: 10px; 
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  width: 100%;
+  display: block;
+}
+
+.text-box {
+  position: absolute;
+  top: 20px; /* or wherever */
+  left: 20px;
+  background-color: orange; /* semi-transparent */
+  color: black;
+  padding: 30px;
+  border: none;
+  z-index: 1; /* Make sure it's above image */
+  border-radius: 7px;
+}
+
+
+
+

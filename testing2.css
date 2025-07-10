@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {                                         
+    background-color: rgb(14, 14, 48);
+}
+
+.top {
+    font-family: Arial;
+    color: white;
+    background-color: blue;
+    border-radius: 30px; 
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1220px;
+    margin-left: 60px;
+    /*padding: 13px;*/ 
+    border: none;
+}
+
+.one {
+    font-family: Arial; 
+    color: rgba(255, 255, 255, 0.767);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 200px; 
+}
+
+li {
+    float: left;
+}   
+
+.dropdown {
+    display: inline-block;
+}   
+
+.contents {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown:hover .contents{
+    display: block;
+}
+
+.contents a:hover {
+    background-color: purple;
+    color: orangered;            
+}
+
+li a{
+    color: rgba(255, 255, 255, 0.767);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    position: relative;
+}
+
+li a:hover {
+    color: orange; 
+}
+
+.two {
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    margin-left: 140px;
+    cursor: pointer;
+}
+
+.two a {
+    text-decoration: none;
+    color: white;
+}
+
+.two:hover {
+    opacity: 0.92;
+}
+
+.fa-chevron-down {
+    font-weight: 100;
+    font-size: 12px;  
+}
+
+.main {
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+.three { 
+    font-family: Arial; 
+    color: white;
+    font-weight: lighter;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+  
+.four { 
+    font-family: Arial;
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.five {
+    display: block;  
+}
+
+.mini {
+    border-bottom: 1px solid grey;
+    width: 360px;
+    padding-bottom: 40px;
+    margin-top: 25px;
+}
+
+.six {
+    color: rgba(255, 255, 255, 0.767);
+    font-family: Arial;
+    line-height: 27px;
+    margin-top: 35px;
+}
+
+.seven {
+    display: block;
+}
+
+.eight {
+    display: block;
+}
+
+.nine {
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid white;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: none;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: background-color 0.15s, opacity 0.15s;
+}
+
+.nine:hover {
+    background-color: rgb(255, 166, 0);
+}
+
+.nine:focus {
+    background-color: rgb(255, 166, 0);
+    opacity: 0.55;
+}
+
+.nine a {
+    color: white;
+    text-decoration: none;
+}
+
+.arrow {
+    font-weight: lighter;
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+}
+
+.logo {
+    margin-left: 850px;
+    margin-top: -570px;
+    /*animation: logos 3s infinite ease-in-out;*/
+    animation-name: logos;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*@keyframes logos {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-5px);
+    }
+}*/
+
+@keyframes logos {
+    0% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-5px);
+    }
+
+    80% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
