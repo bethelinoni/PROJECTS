@@ -84,7 +84,7 @@ li a:hover {
 .two a {
     text-decoration: none;
     color: white;
-}    
+}
 
 .two:hover {
     opacity: 0.92;
@@ -99,7 +99,7 @@ li a:hover {
     margin-top: 65px;
     margin-left: 65px;
 }
-     
+
 .three {
     display: flex;
     align-items: center;
@@ -127,69 +127,87 @@ li a:hover {
 }
 
 .inside {
-    text-align: center;
-}
-
-.five {
-    border: none;
-    background-color: orange;
-    padding: 15px 30px 15px 30px;
-    color: white;
-    border-radius: 25px;
-    font-size: 15px;
-    cursor: pointer;
-}
-
-.fa-th, .fa-code, .fa-object-group, .fa-camera, .fa-chart-line {
-    font-size: 21px;
-    /*color: white;*/
-    margin-right: 10px;
-}
-
-.fa-code:hover, .fa-object-group:hover, .fa-camera:hover, .fa-chart-line:hover {
-    /*color: orange;*/ 
-}
-
-.six, .seven, .eight, .nine {
-    border: none;
-    background-color: rgba(73, 69, 69, 0.4);
-    padding: 15px 30px 15px 30px;
-    color: white;
-    border-radius: 25px;
-    font-size: 15px;
-    margin-left: 12px;
-    cursor: pointer;
-}
-
-.six:hover, .seven:hover, .eight:hover, .nine:hover {
-    color: orange;
-    background-color: rgba(119, 82, 12, 0.212);
+    display: flex;
+    flex-wrap: wrap;
+    /*border-radius: 10px;*/
 }
 
 .inside1 {
+    background-color: rgba(73, 69, 69, 0.4); 
+    border-radius: 10px;
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 40px;
-    margin-left: -40px;
-    margin-bottom: 70px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    height: 250px;
 }
 
-img {
-    border-radius: 15px;
-    height: 230px;
-    width: 300px;
+.inside12:hover {
+    border: 1px solid rgb(104, 70, 8);
+}
+
+.inside12 {
+    border: 1px solid rgba(235, 228, 228, 0.1);
+    border-radius: 0px 10px 10px 0px;
+}
+
+img.five {
+    width: 220px;
+    height: 250px;
     object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
 }
 
-.eleven, .twelve, .thirteen, .fifteen, .sixteen, .seventeen{
-    margin-left: 30px;
+.inside2 {
+    font-family: Arial;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
 }
 
-.fourteen, .fifteen, .sixteen, .seventeen {
-    margin-top: 25px;
+.six {
+    color: white;
+    font-size: 20px;
 }
 
-.eighteen {
+.seven {
+    color: rgba(255, 255, 255, 0.767);
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.eight {
+    color: rgba(255, 255, 255, 0.767);
+    margin-top: 22px;
+    line-height: 22px;
+}
+
+.nine {
+    display: block;
+}
+
+.ten {
+    margin-top: 22px;
+}
+
+button {
+    border: 1px solid rgba(235, 228, 228, 0.1);
+    background: none;
+    color: white;
+    padding: 7px 7px 7px 7px;
+    margin-right: 7px;
+    border-radius: 3px;
+}
+
+.ten button:hover {
+    border: 1px solid orange;
+    color: orange;
+}
+
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-youtube {
+    font-size: 17px;
+}
+
+.eleven {
     display: block;
     margin: auto;
     text-align: center;
@@ -197,30 +215,27 @@ img {
     background-color: rgb(219, 151, 23);
     color: white;
     padding: 11px 25px 11px 25px;
-    font-size: 20px;
+    font-size: 20px;                                               
     border-radius: 3px;
-    transition: opacity 0.15s ease;
-    margin-top: -20px;
+    transition: opacity 0.15s ease;                                
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.eighteen:hover {
+.eleven:hover {
     opacity: 0.7;
 }
 
-.eighteen:focus {
+.eleven:focus {
     opacity: 0.5;
 }
 
-.eighteen a {
+.eleven a {
     text-decoration: none;
     color: rgb(14, 14, 48); 
 }
 
-.eighteen a:hover {
+.eleven a:hover {
     color: rgb(14, 14, 48);
 }
 
-.gf:hover{
-    color: red;
-}
