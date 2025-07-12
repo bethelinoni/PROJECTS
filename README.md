@@ -4,12 +4,12 @@ This is a multi-page HTML & CSS website I built as a project for my Web developm
 
 * Pages
 
-- Home (`ITProject1.html`)
-- About (`ITProject2.html`)
-- Services (`ITProject3.html`)
-- Portfolio (`ITProject4.html`)
-- Team (`ITProject5.html`)
-- Contact (`ITProject6.html`) 
+- Home (`index.html`)
+- About (`about.html`)
+- Services (`services.html`)
+- Portfolio (`portfolio.html`)
+- Team (`team.html`)
+- Contact (`contact.html`) 
 
 * Live Link
   
