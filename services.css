@@ -14,11 +14,13 @@ body {
     border-radius: 30px; 
     margin-top: 25px;
     display: flex;
-    justify-content: center;
+    justify-content: center; /*center*/
     align-items: center;
+    /*width: 100%; /*1220px*/
     width: 1220px;
-    margin-left: 60px;
-    /*padding: 13px;*/ 
+    margin-left: 60px; /*60px*/
+    /*margin-right: auto;*/
+    /*padding: 13px;*/
     border: none;
 }
 
@@ -142,8 +144,8 @@ li a:hover {
 }
 
 .inside1 {
-    margin-left: 270px;
-    margin-top: -30px;
+    margin-left: 270px; /*270px*/
+    margin-top: -30px; /*-30px*/
 }
 
 .seven {
